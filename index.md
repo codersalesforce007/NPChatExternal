@@ -13,6 +13,7 @@
     					scrt2URL: 'https://newportacademy--npchat.sandbox.my.salesforce-scrt.com'
     				}
     			);
+       embeddedservice_bootstrap.settings.reloadOnChatEnd = true;
     		} catch (err) {
     			console.error('Error loading Embedded Messaging: ', err);
     		}
